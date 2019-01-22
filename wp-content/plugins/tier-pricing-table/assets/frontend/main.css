@@ -1,0 +1,44 @@
+.price-rule-active td{
+    background-color: #cc99c2 !important;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+.price-rules-table{
+    margin-top:15px;
+}
+.price-rules-table td {
+    padding-left: 10px;
+}
+.price-rule-active td{
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+.price-rules-table{
+    margin:15px 0;
+}
+.ui-helper-hidden-accessible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.price-table-tooltip {
+    padding: 0;
+    width: 250px !important;
+    z-index:99999;
+}
+.price-rules-table-icon{
+    vertical-align: middle;
+}
+.price-table-tooltip-svg{
+    margin-left: 8px;
+    width: 15px;
+    cursor: help;
+}
+.price-table-tooltip .price-rules-table {
+    margin: 0;
+}
